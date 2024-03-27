@@ -38,6 +38,19 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Swagger Core -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version> <!-- 이 버전은 Springfox 3.x 버전을 사용하는 것입니다. -->
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>3.0.0</version> <!-- 이 버전은 Springfox 3.x 버전을 사용하는 것입니다. -->
+		</dependency>
+
 	</dependencies>
 
 	<build>
